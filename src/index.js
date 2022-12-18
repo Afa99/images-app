@@ -1,7 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from './App'
+import App from '../src/App.js';
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 ReactDOM.render(
-   <App/>
-,document.getElementById('root'));
+
+   <App />
+   , document.getElementById('root'));
+
